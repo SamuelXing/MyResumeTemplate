@@ -1,0 +1,74 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Your Name}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{\bfseries 189 XXXXX XXX XXX, Syracuse, NY, 13210}
+ \moveleft.5\hoffset\basicInfo{
+  \email{email@address.edu} \textperiodcentered\ 
+  \phone{315-XXX-XXXX} \textperiodcentered\ 
+  \github[SamuelXing]{https://github.com/SamuelXing}}
+
+\begin{resume}
+
+\section{EDUCATION}{\sl Syracuse University}, Syracuse, NY \hfill 09/2016-Current \\
+L.C.SMITH College of Engineering, {\bf M.S} in {\bf Computer Science}.\\
+{\sl XXXXX University of Science \& Technology}, China \hfill 09/2012-06/2016 \\
+{\bf B.S} in {\bf Computer Science and Technology}.
+
+\section{ACADEMIC PROJECTS} 	
+	{\sl\bf Course Project, Type-Based Dependency Analyzer} \hfill 03/2017-04/2017 \\
+	\begin{itemize}  \itemsep -2pt %reduce space between items
+    	\item Completed a tool that extracting lexical content from C++ source code files.
+         \item Identified all of the dependencies between files in a specified file collection and found the strong component in dependency graph.
+         \item Honing my C++ skills.
+         \end{itemize}
+         
+          {\sl\bf Course Project, NoSQL Database} \hfill 02/2017-03/2017 \\
+          \begin{itemize}  \itemsep -2pt %reduce space between items
+        	    \item Implementing a NoSQL in-memory database based on C++ STL library.
+             \item Supporting addition and deletion of key/value pairs.
+             \item Supporting DB persistence.
+             \item Supporting different kinds of query.
+         \end{itemize}
+
+\section{EXPERIENCE} 
+                 {\sl Research Assistance, Syracuse} \hfill 10/2017-current \\
+                  \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Blockchain development. Ethereum.XXXXXX
+                 \item Intel SGX. XXXXXX
+                 \end{itemize}
+
+		 {\sl Intern, Syracuse University MIND Lab, Syracuse, NY} \hfill 06/2017-07/2017 \\
+		 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Writing script to preprocess the XXXX       
+                 \item Learned basics in Machine Learning area.
+                \end{itemize}
+
+\section{SKILLS}
+		{\sl\bf Programming:} Python• JavaScript) •C\#•C• C++• Java• Git•HTML• CSS \\
+                {\sl\bf Operating Systems:} MacOS,  Linux, Windows.\\
+                {\sl\bf Database:} MySQL•Oracle•MongoDB•Redis.\\
+                {\sl\bf Software:} Vim, Latex, Virtual Box, Visual Studio 2015, Pycharm, Github, WebStorm\\
+                
+ 
+\section{AWARDS \& \\ SELF-ASSESMENT}  
+		 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Third Winner, The XXXX Competition for Professional IT Talents  \hfill 05/2015
+                \item An enthusiastic and dedicated hard worker
+                \end{itemize} 
+\end{resume}
+\end{document}
+
+
+
+
